@@ -96,14 +96,14 @@ textarea {
 	display: block;
 }
 .sub-menu .menu-item:hover {
-	border-right: 2px solid #fd79a8;
+	border-left: 2px solid #fd79a8 !important;
 }
 
 .overlay.active {
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.65);
 	z-index: 10;
 }
 
@@ -216,7 +216,7 @@ header {
 					padding: 0;
 					display: none;
 					position: absolute;
-					left: 18rem;
+					left: -20rem;
 					background: #fff;
 					width: 20rem;
 					top: 0;
@@ -678,6 +678,9 @@ footer {
 }
 
 @media (max-width: 1199.98px) {
+	.sub-menu .menu-item:hover {
+		border-left: none !important;
+	}
 	.close-icon {
 		display: block;
 		position: absolute;
