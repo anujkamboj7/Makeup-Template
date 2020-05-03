@@ -284,7 +284,7 @@ header nav .nav-list .sub-menu .nested-sub-menu {
 }
 
 .hero {
-  padding: 15rem 0 20rem;
+  padding: 15rem 0rem;
   background: url("assets/woman-wearing-floral-long-sleeved-shirt-covering-her-2823974.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -337,7 +337,7 @@ header nav .nav-list .sub-menu .nested-sub-menu {
 }
 
 .about-us {
-  padding: 10rem 0;
+  padding: 8rem 0;
 }
 
 .about-us .content {
@@ -991,7 +991,7 @@ footer .footer-links li a {
     font-size: 1.6rem !important;
   }
   .hero {
-    padding: 10rem 0rem !important;
+    padding: 8rem 0rem !important;
     background: url(assets/woman-wearing-floral-long-sleeved-shirt-covering-her-2823974.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1178,14 +1178,6 @@ footer .footer-links li a {
 }
 
 @media (max-width: 576px) {
-  .hero {
-    padding: 10rem 0rem !important;
-    background: url(assets/woman-in-grey-long-sleeved-shirt-2787341.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
   .gallery .banner .grid .img-box img {
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
