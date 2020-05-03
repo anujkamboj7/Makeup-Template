@@ -34,7 +34,7 @@ ul {
 }
 
 input {
-	padding: 2rem 1rem !important;
+	padding: 2.3rem 1rem !important;
 	width: 100%;
 	display: block;
 	font-size: 1.6rem !important;
@@ -45,7 +45,7 @@ input {
 	}
 }
 textarea {
-	padding: 0rem 1rem !important;
+	padding: 1rem 1rem !important;
 	font-size: 1.6rem !important;
 	font-family: $font2;
 	outline: none !important;
@@ -84,7 +84,7 @@ textarea {
 }
 .btn {
 	padding: 1.2rem 3rem;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	font-family: $font2;
 }
 
@@ -381,7 +381,7 @@ header {
 		margin-top: 5rem;
 		.item {
 			.inner {
-				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 				padding: 4rem;
 				margin: 1.5rem;
 				border-radius: 5px;
@@ -601,14 +601,14 @@ footer {
 			margin-bottom: 3rem;
 			font-family: $font2;
 			font-weight: 600;
-			&::after {
-				content: "";
-				height: 2px;
-				width: 25px;
-				background: #fff;
-				display: block;
-				margin-top: 0.8rem;
-			}
+			// &::after {
+			// 	content: "";
+			// 	height: 2px;
+			// 	width: 25px;
+			// 	background: #fff;
+			// 	display: block;
+			// 	margin-top: 0.8rem;
+			// }
 		}
 		form {
 			margin: 2rem 0 3rem;
@@ -723,7 +723,7 @@ footer {
 			display: flex;
 			flex-direction: column;
 			position: fixed !important;
-			height: 100%;
+			height: 100vh;
 			width: 26rem;
 			align-items: flex-start;
 			left: -30rem;
@@ -801,6 +801,10 @@ footer {
 				width: 100% !important;
 				p {
 					font-size: 1.6rem !important;
+					margin-bottom: 2rem;
+					&:last-child {
+						margin-bottom: 0 !important;
+					}
 				}
 			}
 			.img-box {
@@ -887,7 +891,7 @@ footer {
 	// 	margin: 3rem 0;
 	// }
 	.gallery {
-		padding: 4rem 0;
+		padding: 5rem 0;
 		background: #f8f9fa;
 		margin-top: 0rem;
 		text-align: center;
@@ -898,7 +902,7 @@ footer {
 		background: #f8f9fa;
 	}
 	.testimonials {
-		padding: 4rem 0;
+		padding: 5rem 0;
 	}
 	.about-us {
 		padding: 5rem 0 !important;
@@ -918,6 +922,19 @@ footer {
 }
 
 @media (max-width: 767.98px) {
+	.contact_us .contact-description h2 {
+		margin-top: 3rem;
+		font-size: 1.5rem !important;
+		line-height: 2.2;
+		color: #3a3a3a;
+		font-family: "Lato", sans-serif;
+		font-weight: 700;
+	}
+	.about-us {
+		.para {
+			padding: 4rem 0 !important;
+		}
+	}
 	.contact_us .row {
 		margin-top: 2rem;
 	}
@@ -935,7 +952,7 @@ footer {
 		padding: 3rem;
 		max-width: 550px;
 		margin: auto;
-		background: rgba(255, 255, 255, 0.9);
+		background: nonegba(255, 255, 255, 0.9);
 		text-align: center;
 	}
 	.owl-nav {
@@ -1028,7 +1045,7 @@ footer {
 		margin-bottom: 2rem;
 		text-transform: uppercase;
 		font-family: "Lato", sans-serif;
-		font-weight: 700;
+		font-weight: 400;
 	}
 	.contact_us form h1 {
 		font-size: 2.4rem;
@@ -1036,11 +1053,14 @@ footer {
 		margin-bottom: 2rem;
 		text-transform: uppercase;
 		font-family: "Lato", sans-serif;
-		font-weight: 700;
 	}
 }
 
 @media (max-width: 576px) {
+	.hero {
+		height: calc(100vh - 10rem);
+		background-position: right center !important;
+	}
 	.gallery .banner .grid .img-box img {
 		-webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);

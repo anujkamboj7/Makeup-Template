@@ -3,8 +3,6 @@ $(document).ready(function() {
 		loop: true,
 		responsiveClass: true,
 		dots: true,
-		autoplay: true,
-		autoplayTimeout: 5000,
 		nav: true,
 		loop: false,
 		responsive: {
