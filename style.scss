@@ -70,6 +70,9 @@ textarea {
 	}
 }
 
+.small-device-img {
+	display: none;
+}
 .social-icons {
 	display: flex;
 	li {
@@ -228,7 +231,12 @@ header {
 
 .hero {
 	padding: 15rem 0rem;
-	background: url("assets/woman-wearing-floral-long-sleeved-shirt-covering-her-2823974.jpg");
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.1),
+			rgba(0, 0, 0, 0.1)
+		),
+		url("assets/woman-wearing-floral-long-sleeved-shirt-covering-her-2823974.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -678,6 +686,9 @@ footer {
 }
 
 @media (max-width: 1199.98px) {
+	.small-device-img {
+		display: none;
+	}
 	.sub-menu .menu-item:hover {
 		border-left: none !important;
 	}
@@ -832,6 +843,16 @@ footer {
 }
 
 @media (max-width: 991.98px) {
+	.hero .content img {
+		margin: 2rem auto !important;
+		display: block;
+	}
+	header {
+		border-bottom: 2px solid #eee;
+	}
+	.small-device-img {
+		display: block;
+	}
 	h1 {
 		margin-bottom: 0;
 	}
@@ -840,16 +861,19 @@ footer {
 	}
 	.hero .content {
 		-webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 		padding: 3rem;
-		max-width: 550px;
+		max-width: 100%;
 		margin: auto;
 		background: rgba(255, 255, 255, 0.9);
 		text-align: center;
 	}
+	.hero .content p {
+		font-size: 1.5rem;
+	}
 	.hero .content .huge {
 		font-family: "Dancing Script", sans-serif;
-		font-size: 5rem !important;
+		font-size: 4.5rem !important;
 		color: #3a3a3a;
 	}
 
@@ -873,8 +897,8 @@ footer {
 		font-size: 1.6rem !important;
 	}
 	.hero {
-		padding: 8rem 0rem !important;
-		background: url(assets/woman-wearing-floral-long-sleeved-shirt-covering-her-2823974.jpg);
+		padding: 2rem 0rem !important;
+		background: none;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
