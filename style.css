@@ -28,7 +28,7 @@ ul {
 }
 
 input {
-  padding: 2.3rem 1rem !important;
+  padding: 2.1rem 0.8rem !important;
   width: 100%;
   display: block;
   font-size: 1.6rem !important;
@@ -130,7 +130,7 @@ textarea::placeholder {
 
 .overlay.active {
   position: fixed;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.65);
   z-index: 10;
@@ -703,7 +703,7 @@ footer .footer-content .branding {
 footer .footer-content h4 {
   font-size: 1.8rem;
   color: #fff;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   font-family: "Lato", sans-serif;
   font-weight: 600;
 }
@@ -952,6 +952,9 @@ footer .footer-links li a {
 }
 
 @media (max-width: 991.98px) {
+  h1 {
+    margin-bottom: 0;
+  }
   .testimonials .owl-carousel {
     margin-top: 0rem;
   }
@@ -982,7 +985,7 @@ footer .footer-links li a {
     font-size: 14.5px !important;
   }
   .content h1 {
-    font-size: 4.2rem !important;
+    font-size: 4rem !important;
   }
   p {
     font-size: 1.6rem !important;
@@ -1032,7 +1035,7 @@ footer .footer-links li a {
 @media (max-width: 767.98px) {
   .contact_us .contact-description h2 {
     margin-top: 3rem;
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
     line-height: 2.2;
     color: #3a3a3a;
     font-family: "Lato", sans-serif;
@@ -1157,26 +1160,31 @@ footer .footer-links li a {
     font-family: "Lato", sans-serif;
   }
   .contact_us .contact-description h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: #3a3a3a;
     margin-bottom: 2rem;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
   }
   .contact_us form h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: #3a3a3a;
     margin-bottom: 2rem;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
+    font-weight: 600;
   }
 }
 
 @media (max-width: 576px) {
   .hero {
-    height: calc(100vh - 10rem);
-    background-position: right center !important;
+    padding: 10rem 0rem !important;
+    background: url(assets/woman-in-grey-long-sleeved-shirt-2787341.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
   }
   .gallery .banner .grid .img-box img {
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
