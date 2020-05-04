@@ -977,12 +977,12 @@ footer .footer-links li a {
     margin-top: 0rem;
   }
   .hero .content {
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     padding: 3rem;
     max-width: 100%;
     margin: auto;
-    background: rgba(255, 255, 255, 0.9);
+    background: #ffeaea;
     text-align: center;
   }
   .hero .content p {
@@ -1036,7 +1036,7 @@ footer .footer-links li a {
     padding: 5rem 0;
   }
   .about-us {
-    padding: 5rem 0 !important;
+    padding: 2rem 0 5rem !important;
   }
   .gallery .banner .grid {
     display: -ms-grid;
