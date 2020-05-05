@@ -132,14 +132,6 @@ textarea::placeholder {
   border-left: 2px solid #fd79a8 !important;
 }
 
-.overlay.active {
-  position: fixed;
-  height: 100vh;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.65);
-  z-index: 10;
-}
-
 header .title-bar {
   padding: 1rem 0;
   background: #3a3a3a;
@@ -786,6 +778,13 @@ footer .footer-links li a {
 }
 
 @media (max-width: 1199.98px) {
+  .overlay.active {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 10;
+  }
   .small-device-img {
     display: none;
   }

@@ -29,4 +29,9 @@ $(document).ready(function() {
 		$(".nav-list").removeClass("active");
 		$(".overlay").removeClass("active");
 	});
+
+	$(".overlay").on("click", function() {
+		$(".nav-list").removeClass("active");
+		$(".overlay").removeClass("active");
+	});
 });
